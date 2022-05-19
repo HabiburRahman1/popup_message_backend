@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <!-- Top Menu -->
+        <menuitem name="Popup Message"
+            id="menu_action_popup_message"
+            web_icon="popup_message_backend,static/description/icon.png"/>
+
+        
+        <!-- Menu -->
+        <menuitem name="Popup Message"
+            id="menu_action_product_priority"
+            action="action_popup_message_view"
+            parent="menu_action_popup_message"
+            sequence="10"/>
+    </data>
+</odoo>
